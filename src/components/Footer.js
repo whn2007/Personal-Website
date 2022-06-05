@@ -29,7 +29,7 @@ function Footer() {
 
 
         </div>
-        <p> &copy; 2022 WilliamNguyen.com </p>
+        <p> &copy; 2022 whn2007.github.io </p>
     </div>
   )
 }
