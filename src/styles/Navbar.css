@@ -25,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
 }
 
 .navbar a {
@@ -73,15 +72,18 @@
 @media only screen and (max-width: 900px) {
   .navbar .rightSide a {
     width: 70px;
+    font-size: 20px;
   }
   .navbar .leftSide {
     padding-left: 50px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .navbar .rightSide a {
     display: none;
+    font-size: 10px;
   }
 
   .navbar .rightSide {
@@ -91,6 +93,16 @@
 
   .navbar .rightSide button {
     display: inherit;
+  }
+
+  .navbar .rightSide svg{
+    color: darksalmon;
+    font-size: 40px;
+  }
+
+  .navbar .leftSide {
+    margin-left: -15px;
+    font-size: 15px;
   }
 }
 

@@ -11,12 +11,25 @@
 
 .socialMedia svg {
   color: darksalmon;
-  margin: 20px;
-  font-size: 70px;
   cursor: pointer;
 }
 
 .footer p {
   color: darksalmon;
   font-size: 20px
+}
+
+@media only screen and (max-width: 900px) {
+  .socialMedia svg {
+    font-size: 70px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .socialMedia svg {
+    font-size: 50px;
+    margin: 20px;
+  }
+
 }
