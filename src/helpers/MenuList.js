@@ -2,10 +2,27 @@ import Sword from "../assets/sword.png";
 
 export const MenuList = [
   {
-    name: "A Peasant's World",
+    name: "Johnny Wu",
     image: Sword,
-    description: "Check out the game I'm making!",
-    link: "https://www.youtube.com/channel/UCBgL-BN69gR9PdAQoR6kcNA"
+    description: "Chief Executive Officer",
+    link: ""
   },
-  
+  {
+    name: "Chris Moos",
+    image: Sword,
+    description: "Chief Technical Officer",
+    link: ""
+  },
+  {
+    name: "John Xu",
+    image: Sword,
+    description: "Head Engineer",
+    link: ""
+  },
+  {
+
+  },
+  {
+    
+  }
 ];

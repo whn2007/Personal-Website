@@ -1,10 +1,11 @@
 .navbar {
   width: 100%;
   height: 100px;
-  background-color: wheat;
+  background-color: black;
   display: flex;
   flex-direction: row;
-  
+  padding-top: 0.5em;
+  position: fixed;
 }
 
 .navbar .leftSide {
@@ -12,11 +13,10 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 150px;
 }
 
 .navbar .leftSide img {
-  width: 70px;
+  width: 10em;
 }
 
 .navbar .rightSide {
@@ -24,13 +24,22 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .navbar a {
-  color: darksalmon;
+  color: rgb(223, 222, 222);
   text-decoration: none;
-  margin: 20px;
+  padding: 1.5rem;
+}
+
+.navbar a:hover{
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar a:nth-child(3){
+  margin-left: 1rem;
 }
 
 .navbar .rightSide button {
@@ -40,14 +49,10 @@
 }
 
 .navbar .rightSide svg{
-  color: darksalmon;
-  font-size: 50px;
+  color: white;
+  font-size: 5rem;
 }
 
-
-.navbar #open {
-  padding-left: 0px;
-}
 .navbar #open img {
   display: none;
 }
@@ -58,25 +63,25 @@
 
 .navbar #open .hiddenLinks {
   display: inherit;
-  margin-left: 30px;
 }
 
 .navbar #close .hiddenLinks {
   display: none;
 }
 
-.navbar #open a {
-  width: 70px;
-  margin: 5px;
-}
-@media only screen and (max-width: 900px) {
+
+@media only screen and (min-width: 1024px) {
+  .navbar .rightSide{
+    margin-right: 4em;
+  }
+
   .navbar .rightSide a {
-    width: 70px;
-    font-size: 20px;
+    width: 3rem;
+    font-size: 1.5rem;
   }
   .navbar .leftSide {
-    padding-left: 50px;
-    font-size: 20px;
+    padding-left: 3em;
+    font-size: 1.2em;
   }
 }
 

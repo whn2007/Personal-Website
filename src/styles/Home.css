@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -12,51 +12,41 @@
 
 .headerContainer {
   width: auto;
-  margin-left: 50px;
-}
-
-.headerContainer h1 {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  height: 60px;
-  font-weight: 50;
-  color: darksalmon;
+  margin-top: 20em;
 }
 
-.headerContainer p {
-  padding: 0;
-  font-size: 30px;
-  font-weight: lighter;
-  color: darksalmon;
-}
 
 .headerContainer button {
-  color: darksalmon;
-  border: none;
-  border-radius: 5px;
+  color: white;
+  border: solid 1px;
+  border-radius: 2em;
+  padding: 1em;
   cursor: pointer;
   justify-content: center;
-  background-color: wheat;
-  height: 50px;
-  width: 140px;
+  background-color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .headerContainer button:hover {
-  background-color: rgb(149, 94, 76);
+  background-color: darkgray;
   cursor: pointer;
   transition: 0.2s ease-in;
+}
+/* full size screens*/
+@media only screen and (min-width: 1024px) {
+  .home{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .home {
     justify-content: center;
     align-items: center;
-  }
-  .headerContainer h1,
-  .headerContainer p {
   }
 
   .headerContainer {
@@ -72,19 +62,8 @@
     color: darksalmon;
   }
 
-  .headerContainer h1 {
-    font-size: 40px;
-    height: 30px;
-    color: darksalmon;
-  }
-
-  .headerContainer p {
-    font-size: 30px;
-    color: darksalmon;
-  }
-
   .headerContainer button {
-    background-color: rgb(237, 184, 123);
+    background-color: black;
     color: whitesmoke;
     margin-bottom: 30px;
   }

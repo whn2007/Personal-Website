@@ -1,23 +1,22 @@
 import React from 'react'
-import BeanAndBun from "../assets/beanandbun.jpg"
+import {MenuList} from "../helpers/MenuList"
+import MenuItem from "../components/MenuItem"
 import "../styles/About.css"
 
 function About() {
   return (
     <div className='about'>
-        <div 
-            className='aboutTop' 
-            style ={{backgroundImage: `url(${BeanAndBun})`}}
-        ></div>
-        <div className='aboutBottom'>
-            <h1>ABOUT ME</h1>
-            <p>
-                Hi! My name is William Nguyen, and I am a computer scientist aspiring to 
-                pursue a career in front-end development. I have a variety of side hobbies,
-                such as playing video games and making games! I love animals, especially my
-                dogs Bean and Bun, who you can see on this website. If you have any business 
-                inquiries feel free to reach out! 
-            </p>
+        <h1 className='aboutTitle'>Our Team</h1>
+        <div className='aboutList'>
+            {MenuList.map((menuItem, key) => {
+                return <MenuItem
+                  key = {key}
+                  image={menuItem.image}
+                  name={menuItem.name} 
+                  description={menuItem.description} 
+                  link={menuItem.link} 
+                  />
+            })}
         </div>
     </div>
   )
