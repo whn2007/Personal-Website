@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.6e9ae7a1.css",
-    "main.js": "/personal-website/static/js/main.da5512a3.js",
-    "static/js/787.e403dcb9.chunk.js": "/personal-website/static/js/787.e403dcb9.chunk.js",
-    "static/media/beanandbun.jpg": "/personal-website/static/media/beanandbun.799b9228255ecf5fef73.jpg",
-    "static/media/bean.JPG": "/personal-website/static/media/bean.057cc982a1a9feb85fee.JPG",
-    "static/media/bean2.jpg": "/personal-website/static/media/bean2.a01e8626676d2d5fb845.jpg",
-    "static/media/sword.png": "/personal-website/static/media/sword.1061a09c94a20cc104d3.png",
-    "index.html": "/personal-website/index.html",
-    "main.6e9ae7a1.css.map": "/personal-website/static/css/main.6e9ae7a1.css.map",
-    "main.da5512a3.js.map": "/personal-website/static/js/main.da5512a3.js.map",
-    "787.e403dcb9.chunk.js.map": "/personal-website/static/js/787.e403dcb9.chunk.js.map"
+    "main.css": "/namer-community/static/css/main.9aa98dc0.css",
+    "main.js": "/namer-community/static/js/main.a284b871.js",
+    "static/js/787.e403dcb9.chunk.js": "/namer-community/static/js/787.e403dcb9.chunk.js",
+    "static/media/bean2.jpg": "/namer-community/static/media/bean2.a01e8626676d2d5fb845.jpg",
+    "static/media/logo.png": "/namer-community/static/media/logo.8893f979a412004e913e.png",
+    "static/media/namebaselogo.png": "/namer-community/static/media/namebaselogo.eac566d7d4cd67e7a091.png",
+    "static/media/sword.png": "/namer-community/static/media/sword.1061a09c94a20cc104d3.png",
+    "index.html": "/namer-community/index.html",
+    "main.9aa98dc0.css.map": "/namer-community/static/css/main.9aa98dc0.css.map",
+    "main.a284b871.js.map": "/namer-community/static/js/main.a284b871.js.map",
+    "787.e403dcb9.chunk.js.map": "/namer-community/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e9ae7a1.css",
-    "static/js/main.da5512a3.js"
+    "static/css/main.9aa98dc0.css",
+    "static/js/main.a284b871.js"
   ]
 }
